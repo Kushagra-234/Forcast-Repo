@@ -1,11 +1,11 @@
 import React from "react";
 import "./chat.css";
 
-import Card from "../card";
+import Card from "../Card/Card";
 
 import { useState, useEffect } from "react";
 
-import { supabase } from "../../supabaseClient";
+import { supabase } from "../supabaseclient";
 
 
 
@@ -15,7 +15,7 @@ export default function Chat() {
   const [messages, setMessages] = useState([]);
 
   const [message, setMessage] = useState({ username: "", content: "" });
-  
+
   const { username, content } = message;
   useEffect(() => {
     const profiles = supabase
@@ -76,9 +76,7 @@ export default function Chat() {
               <img
                 className="image"
                 src={
-                  "https://avatars.dicebear.com/api/adventurer/" +
-                  message.username +
-                  ".svg"
+                  "https://www.w3schools.com/howto/img_avatar.png"
                 }
                 alt="image"
               />
