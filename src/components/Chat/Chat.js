@@ -91,25 +91,25 @@ export default function Chat() {
       <div className="form">
         <div className="username">
           <input
-            className="input"
+            className="input input1"
             id="name"
             autoCapitalize="on"
-            placeholder="Username"
+            placeholder="Enter Username"
             value={localStorage.getItem(message.username)}
             onChange={(e) =>
               setMessage({ ...message, username: e.target.value })
             }
           />
         </div>
-        <div className="content">
+        <div className="msgcontent">
           <input
             id="message"
             className="input"
             placeholder="Message"
             value={localStorage.getItem(message.content)}
             onChange={(e) =>
-              setMessage({ ...message, content: e.target.value })
-            }
+              setMessage({ ...message, content: e.target.value }) 
+            } 
           />
         </div>
         <button className="button" onClick={createPost}>

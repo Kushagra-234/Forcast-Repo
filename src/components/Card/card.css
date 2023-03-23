@@ -1,11 +1,11 @@
 .card {
     display: flex;
     height: auto;
-    width: 95%;
+    width: 55%;
     margin: 10px;
     border-radius: 10px;
-    background: hsla(196, 53%, 50%, 1);
-    background: linear-gradient(200deg, hsla(196, 53%, 50%, 1) 30%, hsla(212, 93%, 49%, 1) 100%);
+    /* background: greenyellow;  */
+    /* background: linear-gradient(200deg, hsla(196, 53%, 50%, 1) 30%, hsla(212, 93%, 49%, 1) 100%); */
 }
 
 .image-name {
@@ -19,8 +19,13 @@
 
 .name {
     text-align: center;
+    margin-top: 5px;
+    margin-bottom: 2px;
+    width: 20px;
     font-size: 10px;
-    font-weight: bold;
+    font-weight: bolder;
+    margin-right: 20px;
+    color: white;
 }
 
 .image {
@@ -28,15 +33,30 @@
     /* width:20px; */
     transform: scale(1.2);
     border-radius: 50%;
+    margin-right: 13px;
 }
 
 .content {
-    width: 480px;
+    width: 400px;
+    display: flex;
     padding: 10px;
+    height: 20px;
+    align-items: center;
+    margin-top: 2px;
+    /* justify-content: center; */
+    font-weight: bolder;
+    border-radius: 5px;
+    /* color: black; */
+
+    /* border: 1px solid white; */
+    background-color:white;
 }
 
 .text { 
     text-align: left;
+    /* color: black; */
+    /* background-color: black; */
+    align-items: center;
 }
 
 /*
