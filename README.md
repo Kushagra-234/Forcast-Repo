@@ -5,13 +5,13 @@ made Using Recatjs ,vanilla css, Supabase
 
 # Steps to clone
 
-git clone https://github.com/Kushagra-234/Forcast-Repo.git
+ 1- git clone https://github.com/Kushagra-234/Forcast-Repo.git
 
-npm i
+ 2- npm install
 
-npm start
+ 3- npm start
 
-go to localhost:3000
+ 4- go to localhost:3000
 
 
 # steps to use Supabase 
