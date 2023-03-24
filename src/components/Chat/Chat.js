@@ -63,6 +63,7 @@ export default function Chat() {
   function submit() {
     localStorage.setItem("name", message.username);
     localStorage.setItem("content", message.content);
+    // setMessage("") 
   }
 
   console.log(message);
